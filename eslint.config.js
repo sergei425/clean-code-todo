@@ -7,7 +7,7 @@ export default [
   {
     files: ['**/*.js'],
     languageOptions: {
-      globals: { ...globals.browser, },
+      globals: { ...globals.browser },
     },
     rules: {
       'no-var': 'error',
