@@ -21,7 +21,9 @@
   },
   "homepage": "https://github.com/sergei425/clean-code-todo#readme",
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
     "eslint": "^10.13.0",
+    "globals": "^17.13.0",
     "husky": "^9.1.7",
     "lint-staged": "^17.6.0",
     "prettier": "^3.9.10"
