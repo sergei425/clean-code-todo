@@ -1,15 +1,24 @@
 {
-  "lint-staged": { "*.{js,jsx,ts,tsx}": [ "eslint --cache --fix", "prettier --write", "git add"], "*.{html,css,scss}": [ "prettier --write", "git add"]},
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "eslint --cache --fix",
+      "prettier --write",
+      "git add"
+    ],
+    "*.{html,css,scss}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
   "name": "clean-code-todo",
   "version": "1.0.0",
   "description": "Учебный репозиторий для задания [«Clean Code»](https://github.com/rolling-scopes-school/tasks/blob/master/fullstack-engineering/tasks/clean-code/README.md) курса RS School Fullstack Engineering.",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint . --ext .js,.html,.css",
+    "lint": "eslint . --ext .js",
     "format": "prettier --write .",
     "prepare": "husky install"
-
   },
   "repository": {
     "type": "git",
