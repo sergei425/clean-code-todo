@@ -115,6 +115,7 @@ input[type='text']:focus {
 }
 .tasks__input {
   width: 226px;
+  display: none;
 }
 .tasks__delete img {
   height: 2em;
@@ -125,20 +126,20 @@ input[type='text']:focus {
   transform: rotateZ(0);
 }
 
-.tasks__label .tasks__label--completed {
+.tasks__label--completed {
   text-decoration: line-through;
   color: #888;
 }
 
-.tasks__input {
-  display: none;
-}
+/* .tasks__input {
+  
+} */
 
-.tasks__item .tasks__item--edit .tasks__input {
+.tasks__input--edit {
   display: inline-block;
   width: 224px;
 }
 
-.tasks__item .tasks__item--edit label {
+.tasks__label--edit {
   display: none;
 }
